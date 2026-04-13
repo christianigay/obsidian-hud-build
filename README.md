@@ -29,12 +29,6 @@ WinRAR
 
 Right-click → Extract Here or Extract to folder
 
-Linux / WSL / macOS
-
-Run:
-
-tar -xvzf obsidian-hud-final.tar.gz
-
 3. Open the Application Folder
 
 After extraction, you should see:
