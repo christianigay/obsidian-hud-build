@@ -1,6 +1,6 @@
 Obsidian HUD
 
-![App Bootstrap](app%20bootstrap.png)
+![App Bootstrap](app_bootstrap.png)
 
 A lightweight desktop AI-powered HUD (Heads-Up Display) built for real-time interaction, voice processing, and system overlay assistance.
 
