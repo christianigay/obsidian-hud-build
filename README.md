@@ -66,6 +66,8 @@ Make sure your system has:
 * Voice processing support (Vosk)
 * Lightweight desktop overlay system
 * Fast local execution (no cloud dependency)
+* Stealth Mode: The app is not visible to screen sharing
+* Human-like typing behaviour
 
 
 ## Project Structure
