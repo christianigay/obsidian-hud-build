@@ -68,6 +68,7 @@ Make sure your system has:
 * Fast local execution (no cloud dependency)
 * Stealth Mode: The app is not visible to screen sharing
 * Human-like typing behaviour
+* Openrouter, Nvidia, and Ollama supperted providers
 
 
 ## Project Structure
