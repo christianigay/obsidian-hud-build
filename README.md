@@ -9,7 +9,9 @@ A lightweight desktop AI-powered HUD (Heads-Up Display) built for real-time inte
 
 This project is distributed as a single packaged file:
 
+```bash
 obsidian-hud-final.tar.gz
+```
 
 This archive contains the full runnable application and required dependencies.
 
@@ -17,7 +19,10 @@ This archive contains the full runnable application and required dependencies.
 ## Installation & Setup
 1. Download the Release
 
-Download: obsidian-hud-final.tar.gz
+Download: 
+```bash 
+obsidian-hud-final.tar.gz 
+```
 
 2. Extract the Archive on Windows
 
@@ -25,6 +30,11 @@ Use any of the following:
 
 * WinRAR
 * 7-Zip
+* Or in terminal
+
+```bash
+tar -xvf obsidian-hud-final.tar.gz
+```
 
 Right-click → Extract Here or Extract to folder
 
@@ -43,12 +53,14 @@ obsidian-hud/
 ```
 
 4. Run the Application
-Windows
+**Windows**
 
 Double-click: obsidian-hud.exe
 
-or in Terminal: ./obsidian-hud.exe
-
+or in Terminal: 
+```bash
+.\obsidian-hud.exe
+```
 
 ## Requirements
 
@@ -71,6 +83,20 @@ Make sure your system has:
 - **Voice Processing (Vosk)** — Offline speech recognition using Vosk's lightweight neural models. Captures audio from microphone, transcribes in real-time, and feeds context to the AI layer without cloud latency.
 - **Fast Local Execution** — Zero cloud dependency. All inference runs on-device using Ollama, OpenRouter, or Nvidia NIM endpoints. Startup time under 3 seconds, inference under 500ms.
 
+### Presentation Broadcast (NEW)
+
+Built-in **LAN-based real-time screen sharing system**
+
+- **Live Screen Broadcast** over WiFi/LAN  
+- **QR Code / Room Code Join**  
+- **Low-Latency Streaming (WebSockets)**  
+- **Unlimited Viewers** (network dependent)  
+- **Multi-Monitor Switching (Real-Time)**  
+- **Live Stats (FPS, Bitrate, Latency)**  
+- **Connected Devices Panel**  
+- **File Sharing (PDF, images, videos, docs)**  
+- **Fullscreen Viewer Mode (mobile + desktop)**  
+
 ### Stealth & Privacy
 - **Stealth Mode** — Ghost-active overlay bypasses screen-share detection. Invisible to Zoom, Teams, Google Meet, Loom, and OBS. Your AI assistance stays private during video calls and remote proctoring.
 - **Privacy-First Architecture** — No audio or text data ever leaves your machine. Perfect for NDA-protected environments, healthcare, legal, and enterprise security zones.
@@ -80,6 +106,8 @@ Make sure your system has:
 
 ### Provider Flexibility
 - **Multi-Provider Support** — OpenRouter, Nvidia NIM, and Ollama integrated out of the box. Swap models instantly based on performance needs or hardware constraints.
+
+> **Note:** Paid models from NVIDIA, OpenRouter, and Ollama are **not included** in this license. Any usage is billed separately via your provider accounts.
 
 ---
 
@@ -107,12 +135,18 @@ obsidian-hud/
 
 
 ## Troubleshooting
-* App won’t open
-* Install WebView2 Runtime
-* Re-extract the archive
-* Run as Administrator
-* Missing DLL errors
-* Ensure all files from the .tar.gz are extracted properly
+
+### App won’t open
+- Install WebView2  
+- Re-extract archive  
+- Run as Administrator  
+
+### Broadcast issues
+- Same WiFi/LAN required  
+- Check firewall (port 3030)  
+
+### Missing DLL
+- Ensure full extraction 
 
 
 ## License
