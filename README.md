@@ -83,19 +83,64 @@ Make sure your system has:
 - **Voice Processing (Vosk)** — Offline speech recognition using Vosk's lightweight neural models. Captures audio from microphone, transcribes in real-time, and feeds context to the AI layer without cloud latency.
 - **Fast Local Execution** — Zero cloud dependency. All inference runs on-device using Ollama, OpenRouter, or Nvidia NIM endpoints. Startup time under 3 seconds, inference under 500ms.
 
-### Presentation Broadcast (NEW)
+## Presentation Broadcast (NEW)
 
-Built-in **LAN-based real-time screen sharing system**
+**Run smooth, real-time presentations across any room — no cables, no setup hassle.**
 
-- **Live Screen Broadcast** over WiFi/LAN  
-- **QR Code / Room Code Join**  
-- **Low-Latency Streaming (WebSockets)**  
-- **Unlimited Viewers** (network dependent)  
-- **Multi-Monitor Switching (Real-Time)**  
-- **Live Stats (FPS, Bitrate, Latency)**  
-- **Connected Devices Panel**  
-- **File Sharing (PDF, images, videos, docs)**  
-- **Fullscreen Viewer Mode (mobile + desktop)**  
+A built-in **LAN-based screen sharing system** designed for classrooms, teams, and live events.
+
+---
+
+### Instant Setup & Access
+
+* **Live Screen Broadcast** over WiFi/LAN
+* **QR Code / Room Code Join** (no installs for viewers)
+* Join instantly from mobile or desktop
+
+---
+
+### Smooth & Reliable Performance
+
+* **Low-Latency Streaming** (WebSockets)
+* **Performance scales with your network**
+* **Live Stats** (FPS, Bitrate, Latency)
+
+---
+
+### Full Presenter Control
+
+* **Multi-Monitor Switching (Real-Time)**
+* **Connected Devices Panel** (see all viewers live)
+
+---
+
+### Live Drawing & Annotation (NEW)
+
+* **Draw directly on your screen in real-time**  
+* Highlight key points during presentations  
+* Use **pen, highlighter, shapes, and text tools**  
+* Annotations are **instantly visible to all viewers**  
+* Perfect for teaching, walkthroughs, and live explanations  
+
+---
+
+### Built-in File Sharing
+
+* Share **PDFs, images, videos, and documents** during sessions
+* Everything in one place — no switching tools
+
+---
+
+### Better Viewing Experience
+
+* **Fullscreen Viewer Mode** (mobile + desktop)
+* Clean, distraction-free viewing for your audience
+
+---
+
+### Key Advantage
+
+* **Start a presentation room in 1 click**
 
 ### Stealth & Privacy
 - **Stealth Mode** — Ghost-active overlay bypasses screen-share detection. Invisible to Zoom, Teams, Google Meet, Loom, and OBS. Your AI assistance stays private during video calls and remote proctoring.
