@@ -447,29 +447,6 @@ Includes:
 
 Files are automatically saved to the system Downloads folder.
 
----
-
-### Multi-Device Architecture
-
-Built using:
-
-* Tauri
-* Vue 3
-* Rust
-* SQLite
-* Axum
-* WebSockets
-
-Features:
-
-* Real-time synchronization
-* LAN-based delivery
-* Ultra-fast response times
-* Mobile device compatibility
-* Offline-friendly architecture
-
----
-
 ### Educational Use Cases
 
 Perfect for:
