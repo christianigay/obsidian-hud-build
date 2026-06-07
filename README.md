@@ -162,6 +162,333 @@ A built-in **LAN-based screen sharing system** designed for classrooms, teams, a
 - Added security/compliance angle for enterprise appeal
 - Structured for readability and conversion
 
+## Activity Management & Live Learning Sessions (NEW)
+
+**Transform Obsidian HUD into a real-time classroom, training, and assessment platform.**
+
+Create rich interactive learning activities and instantly deliver them to connected devices across your network.
+
+---
+
+### Activity Builder
+
+Create and manage learning activities with support for:
+
+* Multiple Choice
+* True / False
+* Matching
+* Fill in the Blank
+* Checklist
+* Short Answer
+* Essay
+
+Each activity supports:
+
+* Custom instructions
+* Question images
+* Option images
+* Question backgrounds
+* Activity backgrounds
+* Theme customization
+* Auto-grading configuration
+* Manual grading workflows
+
+---
+
+### Beautiful Themes & Visual Learning
+
+Create immersive learning experiences with:
+
+* Built-in theme library
+* Custom color themes
+* Activity-wide backgrounds
+* Question-specific background overrides
+* Rich image support
+* Mobile-friendly layouts
+
+Question background priority:
+
+```text
+Question Background
+       ↓
+Activity Background
+       ↓
+Theme Background
+```
+
+---
+
+### Real-Time Activity Sharing
+
+Launch an activity and instantly create a live session.
+
+Participants join through:
+
+* QR Code
+* Join Code
+* Direct URL
+
+No installation required.
+
+Works on:
+
+* Android
+* iPhone
+* Tablets
+* Laptops
+* Desktop Browsers
+
+---
+
+### Interactive Classroom Mode
+
+Perfect for:
+
+* Classroom instruction
+* Group discussions
+* Review games
+* Facilitated learning
+
+Features:
+
+* Host-controlled navigation
+* Previous / Next controls
+* Live participant monitoring
+* Real-time answer tracking
+* Immediate feedback
+* Automatic scoring
+
+Workflow:
+
+```text
+Host Opens Question
+        ↓
+Participants Answer
+        ↓
+Submit Answer
+        ↓
+Instant Feedback
+        ↓
+Waiting State
+        ↓
+Host Navigates Next
+```
+
+---
+
+### Instant Feedback System
+
+After answer submission:
+
+#### Correct Answers
+
+* Animated success screen
+* Green confirmation effects
+* Correct answer highlighting
+* Success sound effects
+
+#### Incorrect Answers
+
+* Animated feedback screen
+* Correct answer display
+* Wrong-answer sound effects
+* Visual learning reinforcement
+
+#### Partial Credit
+
+* Partial-success feedback
+* Score breakdown
+* Guided correction display
+
+---
+
+### Built-In Audio Feedback
+
+Interactive activities include real-time audio responses.
+
+Supported feedback sounds:
+
+* Correct Answer
+* Incorrect Answer
+* Partial Credit
+* Submission Received
+
+Features:
+
+* Plays only on participant device
+* Optional mute control
+* Browser-based audio engine
+* Ultra-low latency playback
+
+---
+
+### Assessment Mode
+
+Ideal for:
+
+* Exams
+* Quizzes
+* Diagnostic tests
+* Self-paced learning
+
+Features:
+
+* Participant-controlled navigation
+* Auto-save answers
+* Resume support
+* Question review
+* Submission validation
+* Locked submissions
+
+Participants can:
+
+* Move freely between questions
+* Review previous answers
+* Modify answers before submission
+* Submit when ready
+
+---
+
+### Auto-Grading Engine
+
+Automatically grades:
+
+* Multiple Choice
+* True / False
+* Matching
+* Fill in the Blank
+* Checklist
+
+Supports:
+
+* Partial credit
+* Case-sensitive matching
+* Multiple accepted answers
+* Match-pair scoring
+
+---
+
+### Manual Review System
+
+For advanced assessments:
+
+* Short Answer grading
+* Essay grading
+* Teacher remarks
+* Rubric scoring
+* Score recalculation
+
+Results update instantly after grading.
+
+---
+
+### Live Monitoring Dashboard
+
+Track participant activity in real time.
+
+View:
+
+* Connected participants
+* Submission progress
+* Answer statistics
+* Participation rates
+* Completion status
+* Session analytics
+
+Perfect for classrooms, training rooms, and workshops.
+
+---
+
+### Visual Results Dashboard
+
+Participants receive immediate performance summaries.
+
+Includes:
+
+* Score Gauge
+* Progress Charts
+* Pie Charts
+* Completion Metrics
+* Rubric Interpretation
+
+Example:
+
+```text
+92% - Outstanding
+```
+
+---
+
+### Downloadable Reports
+
+Generate detailed performance reports.
+
+#### Participant Downloads
+
+* PDF Results
+* Score Summary
+* Question Review
+
+#### Host Downloads
+
+* PDF Reports
+* CSV Exports
+* Excel Exports
+
+Includes:
+
+* Name
+* School
+* Grade
+* Scores
+* Percentages
+* Completion Date
+* Activity Results
+
+Files are automatically saved to the system Downloads folder.
+
+---
+
+### Multi-Device Architecture
+
+Built using:
+
+* Tauri
+* Vue 3
+* Rust
+* SQLite
+* Axum
+* WebSockets
+
+Features:
+
+* Real-time synchronization
+* LAN-based delivery
+* Ultra-fast response times
+* Mobile device compatibility
+* Offline-friendly architecture
+
+---
+
+### Educational Use Cases
+
+Perfect for:
+
+* Schools
+* Universities
+* Corporate Training
+* Workshops
+* Certification Programs
+* Live Events
+* Team Assessments
+* Employee Evaluations
+
+---
+
+### Key Advantage
+
+**Create, share, monitor, assess, and export learning activities from a single application without requiring cloud services or third-party learning platforms.**
+
 
 ## Project Structure
 ```bash
